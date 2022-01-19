@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://iiif-test.github.io/BLJan2022/manifests/manifest2.json",
     "label" : "BL Newspapers Jan 2022"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://iiif-test.github.io/BLJan2022/manifests/manifest3.json",
+    "label" : "BL Newspapers Jan 2022"
   } ]
 }
