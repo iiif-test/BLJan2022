@@ -1,0 +1,13 @@
+{
+  "id" : "https://iiif-test.github.io/BLJan2022/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in iiif-test/BLJan2022 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://iiif-test.github.io/BLJan2022/manifests/manifest2.json",
+    "label" : "BL Newspapers Jan 2022"
+  } ]
+}
