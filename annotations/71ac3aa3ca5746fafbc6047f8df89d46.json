@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Paid up Capital &pound;250,000",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Paid up Capital &pound;250,000</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/101010554321885379400",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-01-19T04:18:47",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1642565927653",
+    "dcterms:modified" : "2022-01-19T04:18:47",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://iiif-test.github.io/BLJan2022/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1509,2687,332,46"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1509.39099,2686.98043h166.16213v0h166.16213v22.79223v22.79223h-166.16213h-166.16213v-22.79223z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2edba1fa-2ea3-4376-8967-5d4fc3e742aa\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://c96404a2-4545-4246-9a8b-8f90f0fa8706-Jan"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Fresh Bread and Butter",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Fresh Bread and Butter</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/101010554321885379400",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-01-19T04:17:58",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1642565878487",
+    "dcterms:modified" : "2022-01-19T04:17:58",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://iiif-test.github.io/BLJan2022/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2207,2767,367,57"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2206.7422,2767.26758h183.36652v0h183.36652v28.52702v28.52702h-183.36652h-183.36652v-28.52702z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_e5b5ffc4-51ac-48cb-8d9c-6cb45d28139c\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://c96404a2-4545-4246-9a8b-8f90f0fa8706-Jan"
+    } ]
+  } ],
+  "@id" : "https://iiif-test.github.io/BLJan2022/annotations/71ac3aa3ca5746fafbc6047f8df89d46.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
