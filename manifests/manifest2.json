@@ -2,14 +2,14 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://iiif-test.github.io/BLJan2022/manifests/manifest2.json",
   "@type" : "sc:Manifest",
-  "label" : "BL Newspapers Jan 2022 - update 7",
+  "label" : "BL Newspapers Jan 2022 - update 8",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "From https://eap.bl.uk/archive-file/EAP922-1-5-63 and https://eap.bl.uk/archive-file/EAP922-1-5-54",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Attribution 18",
+  "attribution" : "Attribution 19",
   "sequences" : [ {
     "@id" : "http://a329e2c1-9a65-4b10-acaa-49a06f2fed7b",
     "@type" : "sc:Sequence",
