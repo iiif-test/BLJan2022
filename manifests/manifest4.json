@@ -1,0 +1,93 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://iiif-test.github.io/BLJan2022/manifests/manifest4.json",
+  "@type" : "sc:Manifest",
+  "label" : "BL Newspapers Jan 2022",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1240244679/101010554321885379400/cbbc8bf376b6b98e125f6bde075c08f5/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "From https://eap.bl.uk/archive-file/EAP922-1-5-63 and https://eap.bl.uk/archive-file/EAP922-1-5-54",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://a329e2c1-9a65-4b10-acaa-49a06f2fed7b",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://c96404a2-4545-4246-9a8b-8f90f0fa8706-Jan",
+      "@type" : "sc:Canvas",
+      "label" : "A page from Hindoo Patriot",
+      "height" : 5616,
+      "width" : 3744,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://05dc9451-dc26-4192-b644-e2e744641299",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.eap.bl.uk/EAP922/EAP922_1_5_63/1.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.eap.bl.uk/EAP922/EAP922_1_5_63/1.jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 5616,
+          "width" : 3744
+        },
+        "on" : "http://c96404a2-4545-4246-9a8b-8f90f0fa8706-Jan"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://iiif-test.github.io/BLJan2022/annotations/71ac3aa3ca5746fafbc6047f8df89d46.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://164799eb-2304-4b4a-aac4-6e13357fb6ad-Jan",
+      "@type" : "sc:Canvas",
+      "label" : "A page from the The Statesman and Friend of India",
+      "height" : 5292,
+      "width" : 3528,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://270e2215-7c6e-4638-98ad-af1a84a49e2b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.eap.bl.uk/EAP922/EAP922_1_5_54/1.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.eap.bl.uk/EAP922/EAP922_1_5_54/1.jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 5292,
+          "width" : 3528
+        },
+        "on" : "http://164799eb-2304-4b4a-aac4-6e13357fb6ad-Jan"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
