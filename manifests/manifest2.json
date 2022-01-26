@@ -9,7 +9,7 @@
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Attribution 5",
+  "attribution" : "Attribution 6",
   "sequences" : [ {
     "@id" : "http://a329e2c1-9a65-4b10-acaa-49a06f2fed7b",
     "@type" : "sc:Sequence",
